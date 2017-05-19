@@ -15,6 +15,9 @@ import { TodoListComponent } from './todo-widget/todo-list.component';
 import {FlotChartModule} from "../../shared/graphs/flot-chart/flot-chart.module";
 import {D3Module} from "../../shared/graphs/d3/d3.module";
 import { IsystemMonitorComponent } from './isystem-monitor/isystem-monitor.component';
+import { IsystemStatusComponent } from './isystem-monitor/isystem-status.component';
+import { IsystemGroupComponent } from './isystem-monitor/isystem-group.component';
+import { IsystemGroupContentComponent } from './isystem-monitor/isystem-group-content.component';
 
 
 @NgModule({
@@ -39,7 +42,10 @@ import { IsystemMonitorComponent } from './isystem-monitor/isystem-monitor.compo
 
     TodoListComponent,
 
-    IsystemMonitorComponent
+    IsystemMonitorComponent,
+    IsystemStatusComponent,
+    IsystemGroupComponent,
+    IsystemGroupContentComponent
   ],
   providers: [],
 })

@@ -1,0 +1,44 @@
+<sa-widget
+        [togglebutton]="false"
+        [editbutton]="false"
+        [fullscreenbutton]="false"
+        [colorbutton]="false"
+        [deletebutton]="false">
+
+  <header>
+        <span class="widget-icon">
+            <i class="glyphicon glyphicon-stats txt-color-darken"></i>
+        </span>
+
+    <h2>Grupo </h2>
+
+    <ul class="nav nav-tabs pull-right in" id="myTab">
+      <li class="active">
+        <a data-toggle="tab" href="#s1"><i class="fa fa-clock-o" ></i>
+          <span class="hidden-mobile hidden-tablet">Últimas Execs.</span>
+        </a>
+      </li>
+    </ul>
+
+  </header>
+
+  <div class="no-padding">
+
+    <div class="widget-body">
+
+      <div id="myTabContent" class="tab-content">
+
+<!--        <live-stats-feed class="tab-pane fade active in padding-10 no-padding-bottom" id="s1"> -->
+<!--                                                                                               -->
+<!--        </live-stats-feed>                                                                     -->
+
+        <app-isystem-group-content class="tab-pane fade active in padding-10 no-padding-bottom" id="s1">
+
+        </app-isystem-group-content>
+      </div>
+
+    </div>
+
+  </div>
+
+</sa-widget>
