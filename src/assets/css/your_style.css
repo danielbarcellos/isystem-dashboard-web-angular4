@@ -17,3 +17,9 @@
  * - BODY
  * - CUSTOM STYLES
  */
+#logo img {
+    width: 110px;
+    height: auto;
+    padding-left: 3px;
+    margin-top: -5px;
+}

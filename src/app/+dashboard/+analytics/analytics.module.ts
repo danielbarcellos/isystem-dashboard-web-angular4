@@ -19,6 +19,8 @@ import { IsystemStatusComponent } from './isystem-monitor/isystem-status.compone
 import { IsystemGroupComponent } from './isystem-monitor/isystem-group.component';
 import { IsystemGroupContentComponent } from './isystem-monitor/isystem-group-content.component';
 
+import {SmartadminDatatableModule} from "../../shared/ui/datatable/smartadmin-datatable.module";
+
 
 @NgModule({
   imports: [
@@ -26,6 +28,7 @@ import { IsystemGroupContentComponent } from './isystem-monitor/isystem-group-co
     AnalyticsRoutingModule,
     CalendarModule,
     FlotChartModule,
+    SmartadminDatatableModule,
     D3Module,
   ],
   declarations: [
